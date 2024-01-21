@@ -1,0 +1,15 @@
+//npm (npde package manager) a way to access and share a custom package online (like github but much less bs and for packages)
+
+//commands of npm
+
+//npm -v (checks version of npm) same as node -v or npm --version
+
+//npm init (creates a package.json file)
+//npm install <package> (installs a package)
+//npm install <package> --save (installs a package and saves it to the package.json file)
+//npm install (installs all packages in the package.json file)
+//npm install -g <package> (installs a package globally)    
+//npm uninstall <package> (uninstalls a package)
+//npm uninstall -g <package> (uninstalls a package globally)
+//difference between local and global packages is that local packages are only available in the directory you are in and global packages are available everywhere
+//difference between npm and npx is that npm installs packages and npx runs packages without installing them (npx is a package runner) 
